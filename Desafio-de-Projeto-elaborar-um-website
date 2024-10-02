@@ -1,0 +1,87 @@
+<!--<+h1+> até <+h6+>, <+p+>, <+mark+>, <small>, <+i+>, <+u+>,
+ <+strong+>, <+ol+>, <+ul+>, <+li+>, <a>, 
+<+hr+>, <sub>, <sup>, <blockquote>
+ <font>, <del>, <+p+>, <+abbr+>;-->
+
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página - Módulo I - Primeiros Passos com HTML</title>
+        
+    </head>
+    <body>
+        
+        <h1>Construção da Primeira Página: Utilizando TAGS e Atributos Ensinados.</h1>
+        <p>Bem, nesse curso vimos a introdução da linguagem de marcação de  hipertextos. Também popularmente conhecida como <abbr title="HyperText Markup Language">HTML.</abbr>
+         Além do conceito apresentados, foi mostrado elementos chamado: <mark>TAGS.</mark><i> Uma forma de informar ao navegador qual é a estrutura daquilo que tá sendo construído.</i>
+         Nesse texto farei uma breve explicação sobre os nomes de algumas e suas funcionalidades na criação do "esqueleto" de páginas html.
+        <P>Antes disso precisamos saber que a construção da estrutura precisa seguir regras de boas práticas para que a leitura fique bem organizada e de fácil manutenção.
+         A estrutura básica do HTML é composta por: definição do documento <u>(doctype)</u>, cabeça <u>(head)</u> e corpo <u>(body)</u>.</p><hr> 
+        <h2><strong> Vamos ver a seguir exemplos de algumas TAGS: </strong></h2>    
+    
+        <p>Imagine quando você estiver começando a escrever um texto; a primeira coisa que fazemos é colocar um título para esse texto, correto? E na construção de um código html, não seria diferente.</p>
+        <p>A tag que usamos para estruturar e informar ao <abbr title="Navegador">Brownsie</abbr> que queremos inserir um título no texto é o <b>H.</b></p>
+        <p>Essa tag de classicação de criação de título tem nivéis diferentes de tamanhos, que vai desde h1 até o h6. </h1></p>
+        
+            <h1>1- Aqui temos um primeiro exemplo.</h1>
+            <h2>2- Aqui temos um segundo exemplo.</h2>
+            <h3>3- Aqui temos um terceiro exemplo.</h3>
+            <h4>4- Aqui temos um quarto exemplo.</h4>
+            <h5>5- Aqui temos um quinto exemplo.</h5>
+            <h6>6- Aqui temos um sexto exemplo.</h6> 
+        <p>Você percebeu a diferença de tamanho da fonte de cada frase? É isso que a tag 'H' tem de funcionalidade. </p> <hr>
+        
+        <p>Em seguida, logo após colocarmos o título de nosso texto temos o primeiros dos muitos paragrafos que virão ao longo dele. Em HTML a tag que predomina esse elemento é o <b>P.</b></p>
+     Nesse momento essa frase que você está lendo em seu navegor, está sendo escrita sem nenhuma tag para comportar ela; não mudou nada, mas na estrutura de leitura não é recomendavél que saia escrevendo sem rumo ou noção da onde essa frase ficará estruturada. O mesmo se aplica como um todo da página, quando queremos colocar um conteúdo, por exemplo, ele inteiramente irá dentro da página na parte do escopo da tag <u>Body</u> que é onde fica tudo que vamos ver daquela página.
+        <p>Se lembra das boas práticas? Pois bem, isso se aplica aqui da mesma forma. Sempre que formos colocar um parágrafo no nosso código utilizamos a tag 'P'.</p><hr>
+    
+        <p>Agora veremos a tag <b>Mark</b> ultilizada para marcar uma frase ou palavra dentro aquele texto. Se você prestou bem atenção lá no início do primeiro parágrafo tem uma palavra marcada como se fosse um marca texto, em amarelo.</p>
+        <p><mark><strong>Nesse exemplo iremos marcar toda essa frase para você ver como ela funciona.</mark></strong> E é dessa forma que utilizamos a tag 'Mark'.</p> <hr>
+    
+        <p>Agora veremos as TAGS de tipografia. As mais comuns são de: <b>negrito</b>, <i>itálico</i> e <u>underline</u>, Também conhecido como o sublinhado.</p>
+        <P><b>Aqui nesta frase temos um exemplo negrito composto pela tag b</b></P>
+        <P><i>Aqui nesta frase temos um exemplo itálico composto pela tag i</i></P>
+        <P><u>Aqui nesta frase temos um exemplo sublinhado composto pela tag u</u></P> <hr>
+        <p>Uma ressalta é a tag <b>Strong</b>, ela tem o mesmo efeito que a tag b de negrito, entretanto, quando o navegador está fazendo a letitura daquele código-texto, ele entende que o strong tem uma sintaxe mais forte do que o simples negrito em b. Isso se aplica inclusive para sites que tem a estrutura para comportar inteligencia para auxilar na usabilidade para pessoas PCD. Um exemplo disso é quando um cego tem acesso a essa página desse site e o navegador na hora fazer a leitura daquele texto e em algum momento a frase comportada ser da tag strong, terá uma enfatização maior, porque o brownsie reconhece que aquela tag tem uma força de expressão maior que o simples negrito.
+        </p><hr>
+    
+        <p>Daí agora dentro do seu texto, você resolve colocar uma lista, em HTML também temos elementos de como fazer isso. Através das tags: <b>ol</b> e <b>ul</b>. As listas ordenadas seguem uma seguencia númerica, enquanto as listas desordenadas seguem pontos (como bolinhas) </p>
+        <p>Uma ressalta de entendimento de como elas funcinam é que, dentro dessa TAG você irá colocar um <abbr titlle="Modificador de elementos">atríbuto.</abbr> Numa sequencia de 'ol' ou 'ul' dentro dessa tag o atributo 'li'. Ele ficará dessa forma:</p>
+        < ol > abrindo e fechando tag com < / > + o < li >
+            <li>exemplo ordenado</li>
+            <li>exemplo ordenado</li>
+            <li>exemplo ordenado</li>
+            <li>exemplo ordenado</li>
+            <li>exemplo ordenado</li>
+        </ol>
+        < ul > abrindo e fechando tag com < / > + o < li >
+        <ul> 
+            <li>exemplo desordenado</li>
+            <li>exemplo desordenado</li>
+            <li>exemplo desordenado</li>
+            <li>exemplo desordenado</li>
+            <li>exemplo desordenado</li>
+        </ul>
+        <hr>
+    
+       <p>Por último veremos como usar a tag que dar navegação através de links. A tag desse elemento é: <b>a</b>. Nela esse elemento também é seguido de um atributo de interação para redirecionamento, o: href.</p>
+        < a > href 
+        <p>Aqui colocarei o link de redirecionamento para a página da documentação HTML aonde você pode fazer pesquisas e entender melhor o conceito da linguagem de marcação de texto, além de ver todas as tags e atributos que os comportam. <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">MDN</a> <hr></p>
+    
+        <p>Finalizamos aqui um pouco do entendimento de como funciona algumas TAGS em HTML.</p>
+    
+        <ul>
+            <li><a href="https://web.dio.me/track/formacao-html-web-developer" target= "_blank">dio.me</a></li>
+            <li><a href="https://www.w3schools.com/html/" target= "_blank" >w3schools</a></li>
+        </ul>
+    
+    
+    
+    
+        
+    
+    </body>
+    </html>
